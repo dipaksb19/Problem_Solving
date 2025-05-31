@@ -8,7 +8,7 @@ public class RemoveSpecialChar {
 		
 		String str = "$ja!va$&st%ar";
 		
-		//Approch - 1 (replaceAll() Method)
+		//Approch - 1 (replaceAll() Method)  regular expression
 		String newstr = str.replaceAll("[^a-zA-Z0-9]", "");
 		System.out.println(newstr);
 		

@@ -13,6 +13,9 @@ public class RemoveWhiteSpacesString {
 		
 		String newstr2 =  str.replaceAll("\\s", ""); // by using unicode of space we are replacing 
 		System.out.println(newstr2);
+		
+		
+		
 
 	}
 
